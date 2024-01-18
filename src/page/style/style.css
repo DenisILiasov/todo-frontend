@@ -48,9 +48,30 @@
 .todo-exit {
     opacity: 1;
 }
+
 .todo-exit-active {
     opacity: 0;
     transform: translateX(200px);
     overflow: hidden;
     transition: all 500ms ease-in;
+}
+
+.modalInput{
+    color: #fff;
+}
+
+.button__container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.text{
+    color: #000;
+    transition: all 0.3s;
+}
+
+.text.cheked{
+    text-decoration: line-through;
+    color: gray;
 }
